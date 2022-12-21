@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+	<h1>Weather App</h1>
+
+	<form name="city-weather">
+		<fieldset>
+			<legend>Search Weather</legend>
+			<div>
+				<label for="name">City:</label>
+				<input type="text" id="city" name="city">
+			</div>
+			<button>Search</button>
+		</fieldset>
+	</form>
+
+	<div id="result">
+
+	</div>
+	<hr>
+	<h2>History</h2>
+	<button id="refresh-btn">Refresh</button>
+	<div id="history">
+
+	</div>
+	<script src="./scripts/main.js"></script>
+</body>
+</html>
